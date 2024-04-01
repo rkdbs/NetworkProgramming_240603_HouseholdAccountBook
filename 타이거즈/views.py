@@ -11,6 +11,11 @@ group = {
             'group_name': '타이거즈',
             'name': '의리',
             'img_src': 'https://i.namu.wiki/i/Ve5oqGUntB90OlWUoWGWq2NRqOOjrkAnJUvQvIHQe0cDd-0_XIqWmiSr1xMZllHwDzZPhOI3MPDi54c7HUA2fg.webp'
+        },
+        {
+            'group_name': '타이거즈',
+            'name': '영철',
+            'img_src': 'https://i.namu.wiki/i/J59_Y_Qxedf7ElhdyPB7khFLmq6hFj95S_K_J_LUlOvjDgxfLX92xy89EamxIBSbQq-cMloPcZY59CSklcLPjA.webp'
         }
     ]
 }
@@ -22,9 +27,12 @@ def show_도영(request):
     # return render(request, '타이거즈/도영.html')
     return render(request, '타이거즈/멤버.html', context=context)
 
-
 def show_의리(request):
     context = list(filter(lambda member: '의리' in member['name'], group['members']))[0]
     # context = group['members'][1]
     # return render(request, '타이거즈/의리.html')
+    return render(request, '타이거즈/멤버.html', context=context)
+
+def show_멤버(request, 멤버):
+    context = list(filter(lambda member: 멤버 in member['name'], group['members']))[0]
     return render(request, '타이거즈/멤버.html', context=context)
