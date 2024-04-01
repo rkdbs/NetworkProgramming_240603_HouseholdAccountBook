@@ -42,6 +42,7 @@
       1. show_도영()
       2. show_해원()
       3. -> templates에 context 전달
+      4. 정보를 하나로 묶고, 거기에서 꺼내오자
    2. templates/타이거즈/
       1. ~~도영.html~~
          1. title : 타이거즈 - 도영
