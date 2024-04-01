@@ -41,19 +41,17 @@
    1. views
       1. show_도영()
       2. show_해원()
+      3. -> templates에 context 전달
    2. templates/타이거즈/
-      1. 도영.html
+      1. ~~도영.html~~
          1. title : 타이거즈 - 도영
          2. h1 : 타이거즈
          3. h2 : 도영
          4. img : 도영 프로필 사진
             1. border-radius : 50%;
-      2. 의리.html
-         1. title : 타이거즈 - 의리
-         2. h1 : 타이거즈
-         3. h2 : 의리
-         4. img : 의리 프로필 사진
-            1. border-radius : 50%;
+      2. ~~의리.html~~
+      3. 맴버.html
+         1. group_name, name, img_src
    3. urls
       1. 타이거즈/ -> 도영 / -> show_도영()
       2. 타이거즈/ -> 의리 / -> show_의리()
