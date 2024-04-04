@@ -5,17 +5,20 @@ group = {
         {
             'group_name': '타이거즈',
             'name': '도영',
-            'img_src': 'https://i.namu.wiki/i/4uojHDCernMm1AizC-WejbubtlOEdkzCmpeAGjoVXF2dNS_NwiOKYGZNwy7OX4jYszCuRF25X-LcJDzZgLL5Cw.webp'
+            # 'img_src': 'https://i.namu.wiki/i/4uojHDCernMm1AizC-WejbubtlOEdkzCmpeAGjoVXF2dNS_NwiOKYGZNwy7OX4jYszCuRF25X-LcJDzZgLL5Cw.webp'
+            'img_src': '타이거즈/images/도영.jpg'
         },
         {
             'group_name': '타이거즈',
             'name': '의리',
-            'img_src': 'https://i.namu.wiki/i/Ve5oqGUntB90OlWUoWGWq2NRqOOjrkAnJUvQvIHQe0cDd-0_XIqWmiSr1xMZllHwDzZPhOI3MPDi54c7HUA2fg.webp'
+            # 'img_src': 'https://i.namu.wiki/i/Ve5oqGUntB90OlWUoWGWq2NRqOOjrkAnJUvQvIHQe0cDd-0_XIqWmiSr1xMZllHwDzZPhOI3MPDi54c7HUA2fg.webp'
+            'img_src': '타이거즈/images/의리.jpeg'
         },
         {
             'group_name': '타이거즈',
             'name': '영철',
-            'img_src': 'https://i.namu.wiki/i/J59_Y_Qxedf7ElhdyPB7khFLmq6hFj95S_K_J_LUlOvjDgxfLX92xy89EamxIBSbQq-cMloPcZY59CSklcLPjA.webp'
+            # 'img_src': 'https://i.namu.wiki/i/J59_Y_Qxedf7ElhdyPB7khFLmq6hFj95S_K_J_LUlOvjDgxfLX92xy89EamxIBSbQq-cMloPcZY59CSklcLPjA.webp'
+            'img_src': '타이거즈/images/영철.jpg'
         }
     ]
 }
