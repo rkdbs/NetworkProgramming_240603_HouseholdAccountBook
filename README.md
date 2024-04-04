@@ -45,6 +45,7 @@
       4. 정보를 하나로 묶고, 거기에서 꺼내오자
       5. show_멤버()
       6. image link -> image file(static)
+      7. show_멤버리스트()
    2. templates/타이거즈/
       1. ~~도영.html~~
          1. title : 타이거즈 - 도영
@@ -56,10 +57,12 @@
       3. 맴버.html
          1. group_name, name, img_src
          2. `{% load static %} <img src="{% static img_src %}">`
+      4. 멤버리스트.html
    3. urls
       1. ~~타이거즈/ -> 도영 / -> show_도영()~~
       2. ~~타이거즈/ -> 의리 / -> show_의리()~~
       3. 타이거즈/ -> <멤버>/ -> show_멤버(멤버)
+      4. 타이거즈/ -> 멤버리스트/ -> show_멤버리스트()
    4. static/타이거즈/images/
       1. 도영.jpg, 영철.jpg, 의리.jpeg
 
