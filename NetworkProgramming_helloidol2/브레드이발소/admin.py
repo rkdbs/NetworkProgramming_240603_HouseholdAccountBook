@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from 브레드이발소.models import Character
+
+admin.site.register(Character)

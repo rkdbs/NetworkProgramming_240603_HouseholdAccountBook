@@ -15,5 +15,9 @@
    1. models
       1. Character
          1. name, feature, created_at, updated_at
+         2. `__str__()`: 객체를 출력할 때, 알맞은 string으로 출력하자
       2. python manage.py makemigrations 브레드이발소
       3. python manage.py migrate 브레드이발소
+   2. admin
+      1. Character
+      2. python manage.py createsuperuser
