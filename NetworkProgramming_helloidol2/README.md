@@ -25,3 +25,5 @@
       1. R: CharacterListView
    4. templates/브레드이발소/
       1. character_list.html
+   5. urls
+      1. 브레드이발소: character_list
