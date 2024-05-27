@@ -9,16 +9,18 @@
             <th>#</th>
             <th>name</th>
             <th>feature</th>
+            <th>edit</th>
         </tr>
         {% for character in character_list %}
         <tr>
             <td>{{ forloop.counter }}</td>
             <td><a href="{% url '브레드이발소:character_detail' pk=character.id %}">{{ character.name }}</a></td>
             <td>{{ character.feature }}</td>
+            <td><a href="{% url '브레드이발소:character_update' pk=character.id %}" class="btn btn-warning">🔨</a></td>
         </tr>
         {% endfor %}
         <tr>
-            <td colspan="3"><a href="{% url '브레드이발소:character_create' %}" class="btn btn-success" >+ character</a></td>
+            <td colspan="4"><a href="{% url '브레드이발소:character_create' %}" class="btn btn-success" >+ character</a></td>
         </tr>
     </table>
     {% endblock %}
