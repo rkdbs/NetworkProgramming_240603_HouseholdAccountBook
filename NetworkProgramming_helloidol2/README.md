@@ -27,15 +27,18 @@
       2. R: CharacterDetailView
       3. C: CharacterCreateView
       4. U: CharacterUpdateView
+      5. D: CharacterDeleteView
    4. templates/브레드이발소/
       1. character_list.html
       2. character_detail.html
       3. character_update.html
+      4. character_confirm_delete.html
    5. urls
       1. 브레드이발소:character_list
       2. 브레드이발소:character_detail
       3. 브레드이발소:character_create
       4. 브레드이발소:character_update
+      5. 브레드이발소:character_delete
 4. templates/
    1. base.html
       1. settings.py > TEMPLATES
