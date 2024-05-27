@@ -25,12 +25,14 @@
    3. views
       1. R: CharacterListView
       2. R: CharacterDetailView
+      3. C: CharacterCreateView
    4. templates/브레드이발소/
       1. character_list.html
       2. character_detail.html
    5. urls
       1. 브레드이발소: character_list
       2. 브레드이발소: character_detail
+      3. 브레드이발소: character_create
 4. templates/
    1. base.html
       1. settings.py > TEMPLATES
