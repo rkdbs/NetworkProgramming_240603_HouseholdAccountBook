@@ -5,6 +5,7 @@ from django.shortcuts import resolve_url
 class Character(models.Model):
     name = models.CharField(max_length=20) # max_length 필수
     feature = models.CharField(max_length=100)
+    photo = models.ImageField(upload_to='photo/%Y/%m/%d/', null=True) # Y는 4자리, y는 2자리
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
